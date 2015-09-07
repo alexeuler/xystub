@@ -1,3 +1,24 @@
 // Place all the styles related to the homes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body{
+  margin:0;
+  height:100%;
+}
+
+div {
+  height:100%;
+}
+
+ table {
+   max-width:800px !important;
+   -moz-animation-play-state: running;
+   -o-animation-play-state: running;
+   animation-play-state: running;;
+   box-shadow: 0px 0px 3px black;
+   background: rgba(255, 226, 161, 0.64);
+   td, th {
+     border-color:black !important;
+   }
+ }
